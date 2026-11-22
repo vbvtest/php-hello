@@ -2,23 +2,22 @@
 if(isset($_POST['submit']))
 {
 $num=$_POST['num'];
-if($num%2==0){
-  echo "$num  is a even number ";
-}
-else
+$fact = 1;
+for ($i=$num; $i>=1; $i--)
 {
-echo "$num is a odd number";
+ $fact = $fact * $i;
 }
+echo "factorial of  $num is  $fact";
 }
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Even odd  Numbers</title>
+<title>Factorial of a Number</title>
 </head>
 <body>
 <table>
-<form name="evenodd" method="post">
+<form name="factorial" method="post">
 <tr>
 <td>Enter Number :</td>
 <td><input type="text" name="num" required></td>
