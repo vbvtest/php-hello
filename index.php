@@ -1,5 +1,5 @@
 <?php
-Developed by Shrenik Vikam
+
 if(isset($_POST['submit']))
 {
 $num=$_POST['num'];
@@ -17,6 +17,7 @@ echo "factorial of  $num is  $fact";
 <title>Factorial of a Number</title>
 </head>
 <body>
+ <h3>Developed by Shrenik Vikam</h3>h3>
 <table>
 <form name="factorial" method="post">
 <tr>
