@@ -1,4 +1,5 @@
 <?php
+Developed by Shrenik Vikam
 if(isset($_POST['submit']))
 {
 $num=$_POST['num'];
