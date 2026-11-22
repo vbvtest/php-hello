@@ -17,7 +17,7 @@ echo "factorial of  $num is  $fact";
 <title>Factorial of a Number</title>
 </head>
 <body>
- <h3>Developed by Shrenik Vikam</h3>h3>
+ <h3>Developed by Shrenik Vikam</h3>
 <table>
 <form name="factorial" method="post">
 <tr>
